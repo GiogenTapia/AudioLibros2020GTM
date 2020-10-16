@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.Vector;
 
 public class AdaptadorLibros extends  RecyclerView.Adapter<AdaptadorLibros.ViewHolder> {
-
+    //Variables globales 
     private  Vector<Libro> vectorLibros;
     private  Context contexto;
     private  LayoutInflater inflador;
